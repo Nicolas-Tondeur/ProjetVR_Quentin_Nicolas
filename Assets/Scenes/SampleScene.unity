@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: c82a334cf5a5e47978749c210cee72a7, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.015194483, g: 0.0089974, b: 0.014068302, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2799,7 +2799,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -3335,6 +3335,411 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2021479123769572842, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123769572842, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123769572842, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123769572842, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123769572842, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123769572842, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123769572842, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123769572842, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123769572842, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123784046202, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123784046202, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123784046202, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123784046202, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123784046202, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123784046202, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123784046202, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123784046202, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123784046202, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123807567632, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123807567632, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123807567632, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123807567632, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123807567632, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123807567632, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123807567632, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123807567632, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123807567632, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123835399967, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123835399967, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123835399967, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123835399967, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123835399967, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123835399967, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123835399967, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123835399967, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123835399967, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123867414322, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123867414322, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123867414322, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123867414322, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123867414322, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123867414322, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123867414322, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123867414322, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123867414322, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123911701549, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123911701549, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123911701549, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123911701549, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123911701549, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123911701549, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123911701549, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123911701549, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123911701549, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123965127021, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123965127021, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123965127021, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123965127021, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123965127021, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123965127021, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123965127021, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123965127021, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479123965127021, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124008988843, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124008988843, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124008988843, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124008988843, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124008988843, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124008988843, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124008988843, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124008988843, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124008988843, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124009138062, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124009138062, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124009138062, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124009138062, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124009138062, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124009138062, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124009138062, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124009138062, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124009138062, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2021479124065165170, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
         type: 3}
       propertyPath: m_RootOrder
@@ -3394,6 +3799,1316 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Map
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124169382736, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124169382736, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124169382736, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124169382736, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124169382736, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124169382736, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124169382736, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124169382736, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124169382736, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124171392204, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124171392204, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124171392204, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124171392204, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124171392204, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124171392204, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124171392204, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124171392204, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124171392204, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124289634715, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124289634715, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124289634715, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124289634715, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124289634715, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124289634715, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124289634715, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124289634715, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124289634715, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124362745996, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124362745996, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124362745996, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124362745996, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124362745996, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124362745996, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124362745996, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124362745996, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124362745996, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124430650522, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124434838716, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124434838716, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124434838716, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124434838716, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124434838716, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124434838716, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124434838716, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124434838716, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124434838716, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124501990980, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124501990980, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124501990980, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124501990980, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124501990980, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124501990980, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124501990980, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124501990980, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124501990980, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124544932139, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124544932139, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124544932139, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124544932139, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124544932139, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124544932139, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124544932139, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124544932139, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124544932139, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124680046710, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124680046710, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124680046710, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124680046710, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124680046710, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124680046710, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124680046710, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124680046710, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124680046710, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124704152988, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124704152988, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124704152988, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124704152988, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124704152988, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124704152988, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124704152988, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124704152988, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124704152988, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124706773212, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124706773212, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124706773212, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124706773212, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124706773212, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124706773212, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124706773212, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124706773212, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124706773212, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124752163183, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124752163183, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124752163183, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124752163183, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124752163183, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124752163183, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124752163183, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124752163183, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124752163183, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124831763822, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124831763822, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124831763822, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124831763822, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124831763822, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124831763822, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124831763822, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124831763822, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479124831763822, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125034791868, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125034791868, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125034791868, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125034791868, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125034791868, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125034791868, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125034791868, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125034791868, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125034791868, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125056296043, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125056296043, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125056296043, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125056296043, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125056296043, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125056296043, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125056296043, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125056296043, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125056296043, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125059870375, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125059870375, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125059870375, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125059870375, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125059870375, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125059870375, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125059870375, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125059870375, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125059870375, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125095150130, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125095150130, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125095150130, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125095150130, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125095150130, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125095150130, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125095150130, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125095150130, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125095150130, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125153883187, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125153883187, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125153883187, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125153883187, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125153883187, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125153883187, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125153883187, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125153883187, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125153883187, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125187262718, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125187262718, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125187262718, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125187262718, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125187262718, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125187262718, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125187262718, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125187262718, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125187262718, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125202960502, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125202960502, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125202960502, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125202960502, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125202960502, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125202960502, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125202960502, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125202960502, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125202960502, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125219771148, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125219771148, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125219771148, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125219771148, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125219771148, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125219771148, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125219771148, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125219771148, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125219771148, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125279015791, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125279015791, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125279015791, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125279015791, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125279015791, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125279015791, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125279015791, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125279015791, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125279015791, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125373135404, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125373135404, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125373135404, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125373135404, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125373135404, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125373135404, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125373135404, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125373135404, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125373135404, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125389899598, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125389899598, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125389899598, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125389899598, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125389899598, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125389899598, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125389899598, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125389899598, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125389899598, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125480746601, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125480746601, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125480746601, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125480746601, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125480746601, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125480746601, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125480746601, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125480746601, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125480746601, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125483864670, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125483864670, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125483864670, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125483864670, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125483864670, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125483864670, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125483864670, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125483864670, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125483864670, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125578287299, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125578287299, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125578287299, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125578287299, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125578287299, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125578287299, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125578287299, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125578287299, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125578287299, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125627923281, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125627923281, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125627923281, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125627923281, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125627923281, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125627923281, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125627923281, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125627923281, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125627923281, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125729051567, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125729051567, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125729051567, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125729051567, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125729051567, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125729051567, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125729051567, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125729051567, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125729051567, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125749734629, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125749734629, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Range
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125749734629, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125749734629, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125749734629, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125749734629, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125749734629, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_AreaSize.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125749734629, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021479125749734629, guid: b253c9fd7722c1d4f8e71e5f89bfd996,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b253c9fd7722c1d4f8e71e5f89bfd996, type: 3}

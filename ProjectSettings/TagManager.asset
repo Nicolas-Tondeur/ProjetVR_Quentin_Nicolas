@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Shootable
   - Legs
   - Head
   - enemy
@@ -13,14 +12,14 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - 
   - Water
   - UI
-  - arme
-  - chargeur
-  - Lighting
-  - Ground
-  - Postprocessing
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -43,9 +42,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Fire
-    uniqueID: 3804908061
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

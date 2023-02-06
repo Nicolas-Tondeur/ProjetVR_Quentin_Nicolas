@@ -10,7 +10,7 @@ public class enemyHealth : MonoBehaviour
 
         float totalDamage = 0;
 
-        if(bodyPartHit.tag == "Untagged"){
+        if(bodyPartHit.tag == "Body"){
             totalDamage = amount;
         }
 
@@ -28,5 +28,17 @@ public class enemyHealth : MonoBehaviour
         if(health <= 0){
             Destroy(gameObject);
         }
+    }
+
+    public void TakeDamageBat(float amount){
+        float totalDamage = 0;
+        totalDamage = amount;
+
+        health -= totalDamage;
+
+        if(health <= 0){
+            Destroy(gameObject);
+        }
+
     }
 }

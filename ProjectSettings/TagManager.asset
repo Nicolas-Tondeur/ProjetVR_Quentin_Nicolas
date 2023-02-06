@@ -8,17 +8,18 @@ TagManager:
   - Head
   - enemy
   - destructible
+  - Body
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - environment
+  - weapon
+  - chargeur
   - 
   - 
   - 

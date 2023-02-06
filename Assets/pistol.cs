@@ -21,7 +21,7 @@ public class pistol : MonoBehaviour
 
     [SerializeField] public bool canShoot;
 
-    float fireRate = .5f;
+    // float fireRate = .5f;
 
 
     private void Start(){

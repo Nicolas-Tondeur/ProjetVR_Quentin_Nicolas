@@ -145,7 +145,7 @@ Light:
     m_Strength: 1
     m_Bias: 0.02
     m_NormalBias: 0.4
-    m_NearPlane: 0.099999994
+    m_NearPlane: 0.1
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -288,7 +288,7 @@ Transform:
   - {fileID: 8611888395804026714}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1821300323075092232
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -455,7 +455,7 @@ Light:
     m_Strength: 1
     m_Bias: 0.02
     m_NormalBias: 0.4
-    m_NearPlane: 0.099999994
+    m_NearPlane: 0.1
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -606,7 +606,7 @@ Light:
     m_Strength: 1
     m_Bias: 0.02
     m_NormalBias: 0.4
-    m_NearPlane: 0.099999994
+    m_NearPlane: 0.1
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -713,7 +713,7 @@ Light:
     m_Strength: 1
     m_Bias: 0.02
     m_NormalBias: 0.4
-    m_NearPlane: 0.099999994
+    m_NearPlane: 0.1
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -820,7 +820,7 @@ Light:
     m_Strength: 1
     m_Bias: 0.02
     m_NormalBias: 0.4
-    m_NearPlane: 0.099999994
+    m_NearPlane: 0.1
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -927,7 +927,7 @@ Light:
     m_Strength: 1
     m_Bias: 0.02
     m_NormalBias: 0.4
-    m_NearPlane: 0.099999994
+    m_NearPlane: 0.1
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -1034,7 +1034,7 @@ Light:
     m_Strength: 1
     m_Bias: 0.02
     m_NormalBias: 0.4
-    m_NearPlane: 0.099999994
+    m_NearPlane: 0.1
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -1141,7 +1141,7 @@ Light:
     m_Strength: 1
     m_Bias: 0.02
     m_NormalBias: 0.4
-    m_NearPlane: 0.099999994
+    m_NearPlane: 0.1
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
